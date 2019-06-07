@@ -1,0 +1,30 @@
+name: CubePlexRPG
+version: 1.0.7
+description: Cubeplex RPG plugin
+author: KechupsLv
+main: com.github.kalvisan.MainClassRPG
+commands:
+      cc:
+        description: Clear chat
+        usage: /<command>
+      ticket:
+        description: Report ticket
+        usage: /<command>
+      vote:
+        description: Voter
+        usage: /<command>
+      shop:
+        description: WEB Shop
+        usage: /<command>
+      servers:
+        description: Server list
+        usage: /<command>
+      lore:
+        description: Change item in hand lore
+        usage: /<command>
+      role:
+        description: Change player role configurations
+        usage: /<command>
+      cubeplex:
+        description: Admins only commands
+        usage: /<command>

@@ -1,0 +1,34 @@
+#  __________________________________________
+# |       CubePlex RPG Configuration         |
+# |              by Kalvisan                 |
+# |__________________________________________|
+# |              Information:                |
+# | - Change the values to that of your      |
+# | choosing to edit its properties. You can |
+# | find help information about a feature    |
+# | in the comment above it.                 |
+# |__________________________________________|
+#
+
+# Start position for players
+start_world: 'act1'
+
+# Lobby world location, where player will be teleported, then join server
+lobby_world: 'world'
+
+# For setting what player see then join to server
+firsttime:
+  title: '&7www.&9&lCubePlex&7.eu'
+  subtitle: '&oAdventure and MMORPG server'
+
+# MySQL settings
+mysql:
+  enable: false
+  host: 'localhost'
+  port: '3306'
+  database: 'database'
+  username: 'user'
+  password: 'pass'
+
+# Internal data, don't change this
+version: '1.0.7'
